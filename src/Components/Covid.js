@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles.css";
+let dateli = new Date().getFullYear();
 const Covid = () => {
   const [data, setData] = useState([]);
   const getCovidData = async () => {
@@ -90,6 +91,7 @@ const Covid = () => {
             <h2>{data.lastupdatedtime}</h2>
           </div>
         </div>
+      <p>Created By Saurabh Singh ©{dateli}</p>
       </div>
     </>
   );
