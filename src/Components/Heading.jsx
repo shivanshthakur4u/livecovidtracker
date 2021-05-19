@@ -3,7 +3,7 @@ import "../heading.css";
 const Heading = () => {
   return (
     <>
-      <p className="line anim-typewriter"> CORONAVIRUS TRACKER(COVID-19)</p>
+      <p className="line anim-typewriter"> CORONAVIRUS TRACKER</p>
     </>
   );
 };
